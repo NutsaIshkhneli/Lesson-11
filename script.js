@@ -6,3 +6,12 @@ for ( let i =2; i<5; i++ ) {
 }
 
 
+let names = ["irakli","elene", "nutsa", "ia", " nia", " salome" ];
+
+for (let i=0; i<names.length; i++) {
+    if ( names [i].length>3)
+    {console.log(names[i])}
+}
+
+
+
